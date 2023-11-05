@@ -40,14 +40,15 @@ Canvas Collective aims to address the pressing issue of financial insecurity amo
 This project showcases how technology, including blockchain and decentralized applications, can be harnessed to create solutions that bridge the gap between artists and financial stability. It matters because it brings financial security to artists worldwide and empowers them to continue contributing to art and culture.
 
 ## How to Run the Project
-To run this project, follow these steps:
 
-1. Clone the repository to your local machine:
+To run this project, follow these steps:
+Clone the repository to your local machine:
 
    ```bash
    git clone https://github.com/your-username/canvas-collective.git
-cd canvas-collective
-npm install
-npm run dev
+   cd canvas-collective
+   npm install
+   npm run dev
+
 
 
