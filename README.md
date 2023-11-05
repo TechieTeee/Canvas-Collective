@@ -42,8 +42,6 @@ This project showcases how technology, including blockchain and decentralized ap
 ## How to Run the Project
 
 To run this project, follow these steps:
-Clone the repository to your local machine:
-
    ```bash
    git clone https://github.com/your-username/canvas-collective.git
    cd canvas-collective
