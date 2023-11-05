@@ -12,7 +12,7 @@ Canvas Collective is a platform designed to address the financial challenges fac
 
 - **Celebrating Creativity:** Artists are recognized, celebrated, and empowered to thrive in their chosen field, enriching society with their immense contributions.
 
-## The Problem
+## The Problem AKA Why does this matter?
 The world of artists is characterized by financial hardship and uncertainty that transcends borders. A vast majority of artists worldwide grapple with the challenge of making a living from their craft, irrespective of cultural and language differences. This global issue calls for an all-encompassing solution that empowers artists and acknowledges their contributions, regardless of their location.
 
 The prevalence of financial insecurity among artists is a harsh reality, with many struggling to make ends meet. A 2017 Artfinder study revealed that 75% of artists worldwide earned less than $10,000 annually from their art, and nearly half earned no more than $5,000. Female artists, in particular, face acute financial instability, with 83.6% earning less than $10,000. This lack of stable income takes a significant toll on artists' mental health, as a 2022 Record Union study found that 73% of independent musicians experienced stress, anxiety, and depression related to their work. These challenges are a universal experience for artists worldwide.
@@ -33,11 +33,6 @@ Canvas Collective provides artists with a platform to showcase their work, conne
 - **JavaScript**
 - **Rust**
 
-## Why This Matters
-Canvas Collective aims to address the pressing issue of financial insecurity among artists, offering them the financial support they need to thrive. By empowering artists, this platform helps recognize and celebrate their contributions to society and enriches our lives with their creativity. Artists are the voices of our communities, storytellers of our time, and visionaries shaping our future.
-
-This project showcases how technology, including blockchain and decentralized applications, can be harnessed to create solutions that bridge the gap between artists and financial stability. It matters because it brings financial security to artists worldwide and empowers them to continue contributing to art and culture.
-
 ## How to Run the Project
 
 To run this project, follow these steps:
@@ -49,8 +44,3 @@ To run this project, follow these steps:
    cd canvas-collective
    npm install
    npm run dev
-
-
-
-
-
