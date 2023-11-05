@@ -1,8 +1,9 @@
 // Import necessary modules and structs
 use std::collections::HashMap;
 use near_sdk::{Balance, AccountId};
-use near_sdk::ext_contract;
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
+use near_sdk::env;
+use near_sdk::Promise;
 
 // Define the CanvasCollective struct
 #[derive(BorshDeserialize, BorshSerialize)]
@@ -25,14 +26,9 @@ pub struct Artist {
 
 // Define the `is_bonus_eligible` function
 fn is_bonus_eligible(artist: &Artist) -> bool {
-    // Implement logic to determine bonus eligibility based on artist's criteria
-    // (e.g., number of artworks sold, community engagement)
-    true
-}
-
-#[ext_contract]
-pub trait CommunityWallet {
-    fn fund_community_wallet(&self, amount: Balance);
+    // Implement your bonus eligibility criteria here
+    // For example, bonus eligibility if earnings exceed a certain threshold
+    artist.earnings > 10_000.into()
 }
 
 // Implement methods for adding artists and managing their earnings and bonuses
@@ -69,8 +65,9 @@ impl CanvasCollective {
         // Transfer artist's earnings to the community wallet
         Promise::new(env::signer_account_id())
             .transfer(artist.earnings)
-            .then(CommunityWallet::fund_community_wallet(
+            .then(ext_fund_community_wallet(
                 amount_to_fund_community_wallet,
+                self.community_wallet.clone(),
             ));
 
         artist.earnings = 0;
@@ -96,5 +93,9 @@ impl CanvasCollective {
             self.artists.insert(&account_id, &artist);
         }
     }
+}
+
+fn ext_fund_community_wallet(amount: Balance, account_id: AccountId) {
+    Promise::new(account_id).transfer(amount);
 }
 
