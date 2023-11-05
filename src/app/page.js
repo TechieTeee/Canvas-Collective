@@ -15,7 +15,7 @@ export default function Home() {
             <li className="cursor-pointer">Collectors' Corner</li>
             <li className="cursor-pointer">
               <Link href="/https://nextjs.org/">
-                <a>Artists' Den</a> {/* Use Link to navigate to artistden.js */}
+                <a>Artists&apos; Den</a> {/* Use Link to navigate to artistden.js */}
               </Link>
             </li>
             <li className="cursor-pointer">
