@@ -43,13 +43,20 @@ export default function Home() {
         <div className="problem-section my-16 text-center">
           <h2 className="text-3xl font-semibold text-black mb-4">The Problem</h2>
           <p className="text-2xl text-black">
-            The landscape for artists is marked by hardship and financial uncertainty. A significant majority of artists struggle to earn a living from their craft. In the United States, a 2017 study by Artfinder revealed that 75% of artists earned $10,000 or less per year from their art, with close to half making no more than $5,000. Women artists are particularly affected, with 83.6% earning less than $10,000.
+            The world of artists is characterized by financial hardship and uncertainty that transcends borders. A vast majority of artists worldwide grapple with the challenge of making a living from their craft, irrespective of cultural and language differences. This global issue calls for an all-encompassing solution that empowers artists and acknowledges their contributions, regardless of their location.
 
-            Moreover, artists are more likely to experience financial instability than the general population. A 2016 study by Cornell University found that nearly a third of artists in New York state earned less than $20,000 annually, despite two-thirds holding bachelor's or graduate degrees. These financial struggles take a toll on their mental health, with a 2022 study by Record Union revealing that 73% of independent musicians experienced stress, anxiety, and depression related to their work.
+            The prevalence of financial insecurity among artists is a harsh reality, with many struggling to make ends meet. A 2017 Artfinder study revealed that 75% of artists worldwide earned less than $10,000 annually from their art, and nearly half earned no more than $5,000. Female artists, in particular, face acute financial instability, with 83.6% earning less than $10,000. This lack of stable income takes a significant toll on artists' mental health, as a 2022 Record Union study found that 73% of independent musicians experienced stress, anxiety, and depression related to their work. These challenges are a universal experience for artists worldwide.
+          </p>
+          <p className="text-2xl text-black">
+            Despite their financial struggles, artists play a crucial role in enriching our lives and shaping our world. Their creative expressions serve as a source of inspiration, a medium for social commentary, and a bridge across cultures. They challenge our perspectives, expand our horizons, and connect us to our shared humanity.
 
-            The need for solutions is further emphasized by the significant economic impact of arts and culture. In the United States, the nonprofit arts and culture industry generated $151.7 billion in economic activity in 2022, supporting 2.6 million jobs and contributing $29.1 billion in tax revenue for local and state governments.
+            To address the pressing challenges faced by artists globally, urgent solutions are needed to provide financial security, encourage collaboration, and expand access to opportunities. Universal Basic Income (UBI) has emerged as a potential solution, offering artists a regular, unconditional payment that could alleviate financial stress and enable them to focus on their craft.
 
-            Canvas Collective aims to address these pressing challenges, providing artists with access to reliable income and a platform to showcase their work. In a world where creativity knows no bounds, our mission is to empower artists, ensuring their talents are not confined by financial constraints or geographic borders.
+            In addition to UBI, initiatives that promote cross-border collaboration and provide artists with access to international markets can also play a significant role in addressing financial insecurity. Platforms like Canvas Collective can serve as hubs for artists to connect, share their work, and gain exposure to a global audience.
+
+            Empowering artists is not just about addressing their financial needs; it is about recognizing and celebrating their immense contributions to society. Artists are the voices of our communities, the storytellers of our time, and the visionaries who shape our future. They deserve support, nurturing, and the opportunity to thrive in their chosen field.
+
+            In a world where creativity knows no bounds, it is imperative to break down barriers and foster an environment where artists can flourish. By providing them with financial stability, access to opportunities, and a platform to showcase their work, we can unleash their creative potential and ensure that their talents shine brightly across the globe.
           </p>
         </div>
 
@@ -63,20 +70,48 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Explore the Artists */}
+        <div className="h-16" /> {/* Spacer with 16px height */}
+        {/* Canvas Collective Community Pic */}
+        <div className="text-center">
+          <Image
+            src="/pexels-matheus-bertelli-3856033.jpg"
+            alt="Centered Image"
+            width={880}
+            height={660}
+          />
+        </div>
+
+        {/* Explore Artists */}
         <div className="checkout-artists my-16 text-center">
           <h2 className="text-3xl font-semibold text-black mb-4">Check Out Our Artists</h2>
           <p className="text-2xl text-black mb-8">
             Explore a diverse collection of artworks from our talented artists.
             Find the perfect piece to adorn your space or support your favorite creators.
           </p>
-          <button className="bg-[#FFDE59] hover:bg-yellow-400 text-black font-bold py-2 px-4 rounded">
+          <button className="bg-[#FFDE59] hover-bg-yellow-400 text-black font-bold py-2 px-4 rounded">
             Check Out Our Artists
           </button>
         </div>
+
+        <div className="text-center">
+          <Image
+            src="/pexels-joshua-poyer-2854589.jpg"
+            alt="Centered Image"
+            width={600}
+            height={450}
+          />
+        </div>
       </main>
+
+      {/* Footer */}
+      <footer className="bg-[#FFDE59] text-center py-4">
+        <p className="text-black">
+          &copy; 2023 Canvas Collective. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }
+
 
 
