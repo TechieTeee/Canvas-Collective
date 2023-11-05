@@ -26,12 +26,12 @@ pub struct Artist {
 
 // Define the `is_bonus_eligible` function
 fn is_bonus_eligible(artist: &Artist) -> bool {
-    // Implement your bonus eligibility criteria here
+    // Bonus eligibility criteria here
     // For example, bonus eligibility if earnings exceed a certain threshold
     artist.earnings > 10_000.into()
 }
 
-// Implement methods for adding artists and managing their earnings and bonuses
+// Methods for adding artists and managing their earnings and bonuses
 #[ext_contract]
 impl CanvasCollective {
     #[init]
@@ -98,4 +98,3 @@ impl CanvasCollective {
 fn ext_fund_community_wallet(amount: Balance, account_id: AccountId) {
     Promise::new(account_id).transfer(amount);
 }
-
