@@ -1,20 +1,12 @@
-use near_sdk::{
-    env, near_bindgen, ext_contract,
-    AccountId, Balance, Promise, PromiseResult,
-    PublicKey, PromiseOrValue
-};
-
+use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
+use near_sdk::{env, near_bindgen};
 use std::collections::HashMap;
 
 #[global_allocator]
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
-near_sdk::setup_alloc!();
-
-const AMOUNT_TO_FUND_COMMUNITY_WALLET: Balance = 7_000_000 * 1_000_000_000; // 7 million NEAR tokens (1 NEAR = $1.56 USD)
-
 #[near_bindgen]
-#[derive(Default, BorshDeserialize, BorshSerialize)]
+#[derive(BorshDeserialize, BorshSerialize)]
 pub struct CanvasCollective {
     artists: HashMap<AccountId, Artist>,
     community_wallet: AccountId,
@@ -25,20 +17,10 @@ pub struct Artist {
     id: u64,
     name: String,
     earnings: Balance,
-    bio: String,  // Artist's biography or description
-    portfolio: Vec<String>,  // URLs to the artist's portfolio or work samples
-    social_links: HashMap<String, String>,  // Social media links (e.g., Twitter, Instagram)
-    bonuses_earned: u64,  // Count of bonuses earned
-}
-
-#[ext_contract]
-pub trait CommunityWallet {
-    fn fund_community_wallet(&mut self);
-}
-
-#[ext_contract]
-pub trait BonusContract {
-    fn check_bonus_criteria(&self) -> bool;
+    bio: String,
+    portfolio: Vec<String>,
+    social_links: HashMap<String, String>,
+    bonuses_earned: u64,
 }
 
 #[near_bindgen]
@@ -60,11 +42,12 @@ impl CanvasCollective {
     pub fn request_payment(&mut self) {
         let account_id = env::signer_account_id();
         let mut artist = self.artists.get(&account_id).unwrap();
+        let amount_to_fund_community_wallet: Balance = 7_000_000_000;
         Promise::new(account_id.clone())
             .transfer(artist.earnings)
             .then(ext_community_wallet::fund_community_wallet(
                 account_id.clone(),
-                AMOUNT_TO_FUND_COMMUNITY_WALLET,
+                amount_to_fund_community_wallet,
                 &self.community_wallet,
                 0,
             ));
@@ -76,7 +59,7 @@ impl CanvasCollective {
         let account_id = env::signer_account_id();
         if BonusContract::check_bonus_criteria() {
             let mut artist = self.artists.get(&account_id).unwrap();
-            let bonus_amount = 250 * 1_000_000_000 / 1_000_000; // Bonus Amount 250 NEAR tokens (assuming 1 NEAR = 1 USD)
+            let bonus_amount: Balance = 250_000_000; // Assuming 1 NEAR = 1 USD
             Promise::new(account_id.clone())
                 .transfer(bonus_amount)
                 .then(ext_community_wallet::fund_community_wallet(
