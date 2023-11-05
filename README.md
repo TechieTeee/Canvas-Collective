@@ -5,6 +5,13 @@
 ## Overview
 Canvas Collective is a platform designed to address the financial challenges faced by artists worldwide. It empowers artists to secure financial stability, connect with art enthusiasts, and showcase their work. By embracing the concept of universal basic income (UBI) and leveraging cutting-edge technology, Canvas Collective opens new doors for artists, regardless of their geographical location. It's where art, community, and financial security converge.
 
+## Demo Image
+
+## Demo Link
+
+## Code Snippet (Near Smart Contract)
+![ccpic7](https://github.com/TechieTeee/canvas-collective/assets/100870737/fa38d2d4-630f-4412-abca-4c837c3b874f)
+
 ## Key Features
 - **Financial Empowerment:** Canvas Collective provides artists with a dependable income source reminiscent of agricultural agreements, but thoughtfully tailored for the art community. Through strategic partnerships with Opolis, artists gain access to affordable healthcare, ensuring their well-being and financial security.
 
