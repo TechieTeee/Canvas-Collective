@@ -14,8 +14,8 @@ export default function Home() {
             <li className="cursor-pointer">Check Out the Artists</li>
             <li className="cursor-pointer">Collectors' Corner</li>
             <li className="cursor-pointer">
-              <Link href="/https://nextjs.org/">
-                <a>Artists&apos; Den</a> {/* Use Link to navigate to artistden.js */}
+              <Link href="https://nextjs.org/">
+                <a>Artists' Den</a> {/* Use Link to navigate to artistden.js */}
               </Link>
             </li>
             <li className="cursor-pointer">
@@ -26,7 +26,7 @@ export default function Home() {
           </ul>
         </div>
       </nav>
-
+      
       {/* Main content */}
       <main className="relative flex min-h-screen flex-col items-center justify-between p-24">
         {/* Hero section with image */}
