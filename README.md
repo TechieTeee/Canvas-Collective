@@ -6,9 +6,17 @@
 Canvas Collective is a platform designed to address the financial challenges faced by artists worldwide. It empowers artists to secure financial stability, connect with art enthusiasts, and showcase their work. By embracing the concept of universal basic income (UBI) and leveraging cutting-edge technology, Canvas Collective opens new doors for artists, regardless of their geographical location. It's where art, community, and financial security converge.
 
 ## Key Features
-- **Financial Empowerment:** Canvas Collective provides artists with a dependable income source, alleviating financial stress and enabling them to focus on their craft.
+- **Financial Empowerment:** Canvas Collective provides artists with a dependable income source reminiscent of agricultural agreements, but thoughtfully tailored for the art community. Through strategic partnerships with Opolis, artists gain access to affordable healthcare, ensuring their well-being and financial security.
 
-- **Global Exposure:** The platform facilitates cross-border collaboration and grants artists access to international markets, ensuring their work reaches a global audience.
+- **Stable Income with W2s:** Artists on Canvas Collective enjoy the freedom to make important financial decisions, such as home ownership. The platform provides reliable income with W2s, offering artists the financial stability they need for a secure future.
+
+- **Automated Payouts:** Say goodbye to the hassle of manual transactions. Canvas Collective streamlines payments with automated payout systems, ensuring that artists receive their earnings efficiently and consistently.
+
+- **Global Reach:** Artists working abroad can convert their earnings to stable coins, offering more financial stability compared to international currencies. This feature enables artists to thrive in a global market while avoiding the currency fluctuations that can hinder their financial growth.
+
+- **Affordable Healthcare:** Thanks to the partnership with Opolis, artists have access to affordable healthcare plans. This partnership helps artists secure their well-being and access essential health benefits.
+
+- **Support and Community:** Canvas Collective fosters a supportive and vibrant community where artists connect, share their work, and gain exposure to a global audience. The platform aims to reduce the high churn rate seen on existing tools like Patreon and individual commissions, offering a stable and nurturing environment for artists to thrive.
 
 - **Celebrating Creativity:** Artists are recognized, celebrated, and empowered to thrive in their chosen field, enriching society with their immense contributions.
 
