@@ -1,1 +1,1 @@
-# canvas-collective
+# Canvas Collective
