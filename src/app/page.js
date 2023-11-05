@@ -1,11 +1,7 @@
-'use client'
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
-import ArtistDen from '/artistden.js';
+import Link from 'next/link'; // Import the Link component
 
 export default function Home() {
-  const navigation = useRouter();
-
   return (
     <div className="bg-[#CFC8BE]">
       {/* Navigation bar */}
@@ -13,34 +9,17 @@ export default function Home() {
         <div className="max-w-5xl mx-auto flex justify-between items-center">
           <h1 className="text-2xl text-black font-bold">Canvas Collective</h1>
           <ul className="flex space-x-4 items-center text-black">
-            <li className="cursor-pointer" onClick={() => navigation.push('/')}>
-              Home
-            </li>
-            <li
-              className="cursor-pointer"
-              onClick={() => navigation.push('/about')}
-            >
-              About
-            </li>
-            <li
-              className="cursor-pointer"
-              onClick={() => navigation.push('/check-out-the-artists')}
-            >
-              Check Out the Artists
-            </li>
-            <li
-              className="cursor-pointer"
-              onClick={() => navigation.push('/collectors-corner')}
-            >
-              Collectors' Corner
-            </li>
-            <li className="cursor-pointer" onClick={() => navigation.push('/artistden')}>
-              Artist Den
+            <li className="cursor-pointer">Home</li>
+            <li className="cursor-pointer">About</li>
+            <li className="cursor-pointer">Check Out the Artists</li>
+            <li className="cursor-pointer">Collectors' Corner</li>
+            <li className="cursor-pointer">
+              <Link href="/https://nextjs.org/">
+                <a>Artists' Den</a> {/* Use Link to navigate to artistden.js */}
+              </Link>
             </li>
             <li className="cursor-pointer">
-              <button
-                className="bg-[#FF739D] hover-bg-[#E84F70] text-white font-bold py-2 px-4 rounded"
-              >
+              <button className="bg-[#FF739D] hover:bg-[#E84F70] text-white font-bold py-2 px-4 rounded">
                 Sign In / Sign Up
               </button>
             </li>
@@ -72,14 +51,13 @@ export default function Home() {
             The world of artists is characterized by financial hardship and uncertainty that transcends borders. A vast majority of artists worldwide grapple with the challenge of making a living from their craft, irrespective of cultural and language differences. This global issue calls for an all-encompassing solution that empowers artists and acknowledges their contributions, regardless of their location.
 
             The prevalence of financial insecurity among artists is a harsh reality, with many struggling to make ends meet. A 2017 Artfinder study revealed that 75% of artists worldwide earned less than $10,000 annually from their art, and nearly half earned no more than $5,000. Female artists, in particular, face acute financial instability, with 83.6% earning less than $10,000. This lack of stable income takes a significant toll on artists' mental health, as a 2022 Record Union study found that 73% of independent musicians experienced stress, anxiety, and depression related to their work. These challenges are a universal experience for artists worldwide.
-          </p>
-          <p className="text-2xl text-black">
-            <div className="h-16" /> {/* Spacer with 16px height */}
+
             Despite their financial struggles, artists play a crucial role in enriching our lives and shaping our world. Their creative expressions serve as a source of inspiration, a medium for social commentary, and a bridge across cultures. They challenge our perspectives, expand our horizons, and connect us to our shared humanity.
 
-            To address the pressing challenges faced by artists globally, urgent solutions are needed to provide financial security, encourage collaboration, and expand access to opportunities. Universal Basic Income (UBI) has emerged as a potential solution, offering artists a regular payment that could alleviate financial stress and enable them to focus on their craft.
-
-            In addition to UBI, initiatives that promote cross-border collaboration and provide artists with access to international markets can also play a significant role in addressing financial insecurity. Platforms like Canvas Collective can serve as hubs for artists to connect, share their work, and gain exposure to a global audience. Canva Collective is uniquely approaching this problem by taking the community service agriculture and adapting it to art. This is a tremendous improvement to single commission sales and subscription services with unpredictable churn rates.
+            To address the pressing challenges faced by artists globally, urgent solutions are needed to provide financial security, encourage collaboration, and expand access to opportunities. Universal Basic Income (UBI) has emerged as a potential solution, offering artists a regular, unconditional payment that could alleviate financial stress and enable them to focus on their craft.
+          </p>
+          <p className="text-2xl text-black">
+            In addition to UBI, initiatives that promote cross-border collaboration and provide artists with access to international markets can also play a significant role in addressing financial insecurity. Platforms like Canvas Collective can serve as hubs for artists to connect, share their work, and gain exposure to a global audience.
 
             Empowering artists is not just about addressing their financial needs; it is about recognizing and celebrating their immense contributions to society. Artists are the voices of our communities, the storytellers of our time, and the visionaries who shape our future. They deserve support, nurturing, and the opportunity to thrive in their chosen field.
 
@@ -115,7 +93,7 @@ export default function Home() {
             Explore a diverse collection of artworks from our talented artists.
             Find the perfect piece to adorn your space or support your favorite creators.
           </p>
-          <button className="bg-[#FFDE59] hover-bg-yellow-400 text-black font-bold py-2 px-4 rounded">
+          <button className="bg-[#FFDE59] hover:bg-yellow-400 text-black font-bold py-2 px-4 rounded">
             Check Out Our Artists
           </button>
         </div>
@@ -128,11 +106,12 @@ export default function Home() {
             height={450}
           />
         </div>
+
       </main>
 
       {/* Footer */}
       <footer className="bg-[#FFDE59] text-center py-4">
-        <p className="text-black">
+        <p className="text-black text-sm">
           &copy; 2023 Canvas Collective. All rights reserved.
         </p>
       </footer>
