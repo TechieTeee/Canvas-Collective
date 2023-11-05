@@ -1,6 +1,4 @@
 
-Certainly, here's the information you can use to fill out the README for your project:
-
 Canvas Collective
 Table of Contents
 Problem Statement
