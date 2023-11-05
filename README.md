@@ -8,8 +8,8 @@ Canvas Collective is a platform designed to address the financial challenges fac
 ## Demo Image
 ![ccpic1](https://github.com/TechieTeee/canvas-collective/assets/100870737/105ccb72-8dd7-45d1-acaf-e049c507664a)
 
-
 ## Demo Link
+https://www.youtube.com/watch?v=NbcU7YaxX-o
 
 ## Code Snippet (Near Smart Contract)
 
