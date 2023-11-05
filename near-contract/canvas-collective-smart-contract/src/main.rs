@@ -11,6 +11,8 @@ static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 near_sdk::setup_alloc!();
 
+const AMOUNT_TO_FUND_COMMUNITY_WALLET: Balance = 7_000_000 * 1_000_000_000; // 7 million NEAR tokens (1 NEAR = $1.56 USD)
+
 #[near_bindgen]
 #[derive(Default, BorshDeserialize, BorshSerialize)]
 pub struct CanvasCollective {
@@ -62,7 +64,7 @@ impl CanvasCollective {
             .transfer(artist.earnings)
             .then(ext_community_wallet::fund_community_wallet(
                 account_id.clone(),
-                1_000_000_000_000_000_000_000, // Amount to fund community wallet
+                AMOUNT_TO_FUND_COMMUNITY_WALLET,
                 &self.community_wallet,
                 0,
             ));
