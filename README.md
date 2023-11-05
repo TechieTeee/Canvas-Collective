@@ -46,4 +46,8 @@ To run this project, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/canvas-collective.git
+cd canvas-collective
+npm install
+npm run dev
+
 
