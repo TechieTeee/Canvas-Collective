@@ -1,3 +1,5 @@
+![Canvas Collective](https://github.com/TechieTeee/canvas-collective/assets/100870737/767e22c2-779d-4cd1-92e2-8b24a37819d5)
+
 # Canvas Collective
 
 ## Table of Contents
