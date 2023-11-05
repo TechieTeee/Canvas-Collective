@@ -74,7 +74,7 @@ impl CanvasCollective {
         let account_id = env::signer_account_id();
         if BonusContract::check_bonus_criteria() {
             let mut artist = self.artists.get(&account_id).unwrap();
-            let bonus_amount = 1_000_000_000_000_000_000_000; // Bonus amount
+            let bonus_amount = 250 * 1_000_000_000 / 1_000_000; // Bonus Amount 250 NEAR tokens (assuming 1 NEAR = 1 USD)
             Promise::new(account_id.clone())
                 .transfer(bonus_amount)
                 .then(ext_community_wallet::fund_community_wallet(
