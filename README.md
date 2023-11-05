@@ -27,12 +27,14 @@ Canvas Collective is a groundbreaking platform that offers artists a dependable 
 
 Canvas Collective provides artists with a platform to showcase their work, connect with art enthusiasts, and secure a dependable income. It embraces universal basic income (UBI) to alleviate financial stress and empower artists to focus on their craft. The platform facilitates cross-border collaboration and provides artists with access to international markets.
 
-## Tools Used
+## Tools and Languages Used
 - **Next.js**: A React framework for building web applications.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
 - **Near Protocol**: A blockchain platform for decentralized applications.
 - **Blockchain Technology**: Utilized for securing transactions and enabling smart contracts.
 - **React Chart.js 2**: A library for creating charts and data visualizations.
+- **JavaScript**
+- **Rust**
 
 ## Why This Matters
 Canvas Collective aims to address the pressing issue of financial insecurity among artists, offering them the financial support they need to thrive. By empowering artists, this platform helps recognize and celebrate their contributions to society and enriches our lives with their creativity. Artists are the voices of our communities, storytellers of our time, and visionaries shaping our future.
