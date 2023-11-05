@@ -16,7 +16,9 @@
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
-    "react-spring": "^9.7.3"
+    "react-spring": "^9.7.3",
+    "victory": "^36.6.12",
+    "victory-charts": "^0.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
