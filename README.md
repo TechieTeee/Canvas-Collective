@@ -6,13 +6,13 @@
 Canvas Collective is a platform designed to address the financial challenges faced by artists worldwide. It empowers artists to secure financial stability, connect with art enthusiasts, and showcase their work. By embracing the concept of universal basic income (UBI) and transfering the idea of community service agriculture (CSA) to art, while leveraging cutting-edge technology, Canvas Collective opens new doors for artists, regardless of their geographical location. It's where art, community, and financial security converge.
 
 ## Presentation Link
-https://www.canva.com/design/DAFzXGKT0DI/-9wwyhEtfe7Mo7WtwUC0Rw/view?utm_content=DAFzXGKT0DI&utm_campaign=designshare&utm_medium=link&utm_source=editor
+[Presentation Link](https://www.canva.com/design/DAFzXGKT0DI/-9wwyhEtfe7Mo7WtwUC0Rw/view?utm_content=DAFzXGKT0DI&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ## Demo Image
 ![ccpic1](https://github.com/TechieTeee/canvas-collective/assets/100870737/105ccb72-8dd7-45d1-acaf-e049c507664a)
 
 ## Demo Link
-https://www.youtube.com/watch?v=NbcU7YaxX-o
+[Demo Link](https://www.youtube.com/watch?v=NbcU7YaxX-o)
 
 ## Code Snippet (Near Smart Contract)
 ![ccpic8](https://github.com/TechieTeee/canvas-collective/assets/100870737/2e33dd99-4e47-4785-abab-4750dcef52d5)
