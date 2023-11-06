@@ -57,8 +57,6 @@ Canvas Collective provides artists with a platform to showcase their work, conne
 ## How to Run the Project
 
 To run this project, follow these steps:
-
-Clone the repository to your local machine:
    ```bash
    git clone https://github.com/your-username/canvas-collective.git
    cd canvas-collective
