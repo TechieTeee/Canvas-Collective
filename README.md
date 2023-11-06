@@ -3,7 +3,7 @@
 # Canvas Collective
 
 ## Overview
-Canvas Collective is a platform designed to address the financial challenges faced by artists worldwide. It empowers artists to secure financial stability, connect with art enthusiasts, and showcase their work. By embracing the concept of universal basic income (UBI) and transfering the idea of community service agriculture to art, while leveraging cutting-edge technology, Canvas Collective opens new doors for artists, regardless of their geographical location. It's where art, community, and financial security converge.
+Canvas Collective is a platform designed to address the financial challenges faced by artists worldwide. It empowers artists to secure financial stability, connect with art enthusiasts, and showcase their work. By embracing the concept of universal basic income (UBI) and transfering the idea of community service agriculture (CSA) to art, while leveraging cutting-edge technology, Canvas Collective opens new doors for artists, regardless of their geographical location. It's where art, community, and financial security converge.
 
 ## Presentation Link
 https://drive.google.com/file/d/1jXJweCkJopXpSQJ1NXkv0RLWByMqfNkW/view?usp=sharing
