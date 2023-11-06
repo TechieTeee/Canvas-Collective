@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=NbcU7YaxX-o
 
 - **Global Reach:** Artists working abroad can convert their earnings to stable coins, offering more financial stability compared to international currencies. This feature enables artists to thrive in a global market while avoiding the currency fluctuations that can hinder their financial growth.
 
-- **Affordable Healthcare:** Thanks to the partnership with Opolis, artists have access to affordable healthcare plans. This partnership helps artists secure their well-being and access essential health benefits.
+- **Affordable Healthcare:** Through a partnership with Opolis, artists would have access to affordable healthcare plans. This partnership would help artists secure their well-being and access essential health benefits.
 
 - **Support and Community:** Canvas Collective fosters a supportive and vibrant community where artists connect, share their work, and gain exposure to a global audience. The platform aims to reduce the high churn rate seen on existing tools like Patreon and individual commissions, offering a stable and nurturing environment for artists to thrive.
 
